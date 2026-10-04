@@ -1,0 +1,32 @@
+# Python bytecode and packaging
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local data: rebuilt by `python -m ai_support_bot ingest` / `chat`
+data/index.json
+data/*.db
+data/*.db-journal
+data/*.sqlite
+data/*.sqlite3
+
+# Test scratch directories
+tests/_tmp/
+
+# Secrets and environment configuration
+.env
+.env.*
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
